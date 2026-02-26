@@ -42,6 +42,9 @@ Meaning:
 
 This produces a classic cumulative sum.
 
+
+```
+
 Example:
 
 Date | Amount | Running Total
@@ -50,7 +53,7 @@ Jan2 | 200    | 300
 Jan3 | 150    | 450
 
 Each row includes all previous rows.
-
+```
 ---
 
 ## 4️⃣ Frame: ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING
@@ -62,7 +65,7 @@ Meaning:
 - Include all rows after it.
 
 This produces a reverse running total (suffix sum).
-
+```
 Example:
 
 Date | Amount | Reverse Sum
@@ -70,7 +73,7 @@ Jan1 | 100    | 1000
 Jan2 | 200    | 900
 Jan3 | 300    | 700
 Jan4 | 400    | 400
-
+```
 Each row includes itself and all future rows.
 
 ---
