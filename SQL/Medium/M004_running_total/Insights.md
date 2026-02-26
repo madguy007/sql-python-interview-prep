@@ -92,7 +92,63 @@ Understanding frame clauses is essential for advanced analytics queries, moving 
 
 ---
 
-## 6️⃣ Interview Concepts Tested
+## 6️⃣ Frame: ROWS BETWEEN 1 PRECEDING AND CURRENT ROW
+
+ROWS BETWEEN 1 PRECEDING AND CURRENT ROW
+
+Meaning:
+- Include the current row.
+- Include only the one row immediately before it.
+- Exclude all other previous rows.
+
+This creates a 2-row rolling window.
+```
+Example:
+
+Date | Amount | Frame Rows Included | Result
+Jan1 | 100    | [100]               | 100
+Jan2 | 200    | [100, 200]          | 300
+Jan3 | 300    | [200, 300]          | 500
+Jan4 | 400    | [300, 400]          | 700
+```
+Notice:
+- It does NOT include the full history.
+- It only looks back 1 row.
+
+This is called a rolling sum or moving window.
+
+---
+
+## 🔎 General Rule
+
+ROWS BETWEEN N PRECEDING AND CURRENT ROW
+
+Includes:
+- Current row
+- Previous N rows
+
+Maximum rows included = N + 1
+
+Examples:
+
+- 1 PRECEDING → 2-row rolling window
+- 2 PRECEDING → 3-row rolling window
+- UNBOUNDED PRECEDING → cumulative sum
+
+---
+
+## Why This Is Useful
+
+This pattern is used in:
+
+- Moving averages
+- Rolling revenue calculations
+- Trend smoothing
+- Time-series analytics
+
+It is different from cumulative totals because it limits historical visibility.
+
+##  Interview Concepts Tested
 
 - Window functions
 - Partitioning logic
