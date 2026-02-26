@@ -10,7 +10,7 @@ The challenge is detecting consecutive date sequences.
 ## Why ROW_NUMBER() is Used
 
 ROW_NUMBER() assigns increasing numbers per user ordered by login_date.
-
+```
 Example:
 
 login_date | rn
@@ -19,7 +19,7 @@ login_date | rn
 2024-01-13 | 3
 2024-01-14 | 4
 2024-01-15 | 5
-
+```
 ---
 
 ## The Core Trick
@@ -36,19 +36,19 @@ In consecutive sequences:
 - Their difference stays constant
 
 Example:
-
+```
 Date | rn | Date - rn
 10   | 1  | 9
 11   | 2  | 9
 12   | 3  | 9
-
+```
 Same value → same group.
 
 When a gap happens:
-
+```
 Date | rn | Date - rn
 13   | 3  | 10
-
+```
 Value changes → new group.
 
 ---
