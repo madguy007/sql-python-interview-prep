@@ -51,9 +51,8 @@ Date | Amount | Running Total
 Jan1 | 100    | 100
 Jan2 | 200    | 300
 Jan3 | 150    | 450
-
-Each row includes all previous rows.
 ```
+Each row includes all previous rows.
 ---
 
 ## 4️⃣ Frame: ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING
