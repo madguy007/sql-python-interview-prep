@@ -107,6 +107,8 @@ Filtered rows
 |7|4|2|
 
 ---
+here you have to consider the 3rd column as the employee_id and when you do e3.manger_id then we go to our fist table as it is. so last row is 
+emp_id = 2 with manager_id = 1 so, that is third level. employee--> manager --> senior manger --> director
 
 ## Step 4 — Apply Second WHERE Condition
 
