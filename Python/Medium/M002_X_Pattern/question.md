@@ -10,6 +10,7 @@ A cross pattern forms an **X shape** where:
 An integer `N` representing the number of rows.
 
 ## Example
+ N = 5
 ```
 
 * - - - *
