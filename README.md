@@ -1,14 +1,5 @@
 # SQL & Python Interview Prep
 
-This repository contains a curated collection of SQL and Python problems that I find interesting across various platforms on the internet.
-The goal is not just interview preparation, but structured logic building, query optimization practice, and strengthening problem-solving skills.
-
-Topics Covered:
-SQL (Joins, Window Functions, CTEs, Aggregations, Business Queries)
-Python (Data Structures, Algorithms, Pandas, Logic Building)
-
-This repository reflects my continuous learning and consistency in practice.
-
 | ID | Language | Difficulty | Problem | Link |
 |----|----------|-----------|--------|------|
 | B001 | Python | Basic | sum_check_digit | [Open](Python/Basic/B001_sum_check_digit) |
@@ -17,6 +8,7 @@ This repository reflects my continuous learning and consistency in practice.
 | B002 | SQL | Basic | muliple_table_join | [Open](SQL/Basic/B002_muliple_table_join) |
 | B003 | SQL | Basic | dealing_with_null | [Open](SQL/Basic/B003_dealing_with_null) |
 | B004 | SQL | Basic | Date_diff | [Open](SQL/Basic/B004_Date_diff) |
+| B005 | SQL | Basic | poppppp | [Open](SQL/Basic/B005_poppppp) |
 | H001 | Python | Hard | next_date | [Open](Python/Hard/H001_next_date) |
 | H001 | SQL | Hard | Consecutive_login_days | [Open](SQL/Hard/H001_Consecutive_login_days) |
 | H002 | SQL | Hard | median_salary | [Open](SQL/Hard/H002_median_salary) |
