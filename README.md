@@ -8,7 +8,7 @@
 | B002 | SQL | Basic | muliple_table_join | [Open](SQL/Basic/B002_muliple_table_join) |
 | B003 | SQL | Basic | dealing_with_null | [Open](SQL/Basic/B003_dealing_with_null) |
 | B004 | SQL | Basic | Date_diff | [Open](SQL/Basic/B004_Date_diff) |
-| B005 | SQL | Basic | poppppp | [Open](SQL/Basic/B005_poppppp) |
+| B005 | SQL | Basic | madan | [Open](SQL/Basic/B005_madan) |
 | H001 | Python | Hard | next_date | [Open](Python/Hard/H001_next_date) |
 | H001 | SQL | Hard | Consecutive_login_days | [Open](SQL/Hard/H001_Consecutive_login_days) |
 | H002 | SQL | Hard | median_salary | [Open](SQL/Hard/H002_median_salary) |

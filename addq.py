@@ -45,9 +45,9 @@ if q_start == -1 or s_start == -1 or i_start == -1:
     print("❌ Missing markers. Use ===QUESTION===, ===SOLUTION===, ===INSIGHTS===")
     exit()
 
-question = content[q_start+13:s_start].strip()
-solution = content[s_start+13:i_start].strip()
-insights = content[i_start+13:].strip()
+question = content[q_start+len("===question==="):s_start].strip()
+solution = content[s_start+len("===solution==="):i_start].strip()
+insights = content[i_start+len("===insights==="):].strip()
 
 base = os.path.join(language, difficulty)
 
