@@ -23,7 +23,6 @@ print("\nPaste content using markers:")
 print("===QUESTION===")
 print("===SOLUTION===")
 print("===INSIGHTS===")
-print("Press ENTER twice when done\n")
 
 print("Paste everything now. Finish by typing END on a new line.\n")
 
@@ -78,6 +77,7 @@ with open(os.path.join(path, f"solution.{ext}"), "w") as f:
 with open(os.path.join(path, "insights.md"), "w") as f:
     f.write(insights)
 
+subprocess.run(["git", "pull", "origin", "main", "--rebase"])
 subprocess.run(["git", "add", "."])
 subprocess.run(["git", "commit", "-m", f"Added {folder_name}"])
 subprocess.run(["git", "push"])
