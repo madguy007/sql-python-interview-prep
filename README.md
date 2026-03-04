@@ -1,14 +1,34 @@
-# SQL & Python Problem Solving Repository
+# SQL & Python Interview Prep
 
-This repository contains a curated collection of SQL and Python problems 
-that I find interesting across various platforms on the internet.
+""This repository contains a curated collection of SQL and Python problems that I find interesting across various platforms on the internet.
 
-The goal is not just interview preparation, but structured logic building, 
-query optimization practice, and strengthening problem-solving skills.
+The goal is not just interview preparation, but structured logic building, query optimization practice, and strengthening problem-solving skills.
 
 Topics Covered:
-- SQL (Joins, Window Functions, CTEs, Aggregations, Business Queries)
-- Python (Data Structures, Algorithms, Pandas, Logic Building)
 
-This repository reflects my continuous learning and consistency in practice.
+SQL (Joins, Window Functions, CTEs, Aggregations, Business Queries)
+Python (Data Structures, Algorithms, Pandas, Logic Building)
+This repository reflects my continuous learning and consistency in practice.""
 
+| ID | Language | Difficulty | Problem | Link |
+|----|----------|-----------|--------|------|
+| B001 | Python | Basic | sum_check_digit | [Open](Python/Basic/B001_sum_check_digit) |
+| B001 | SQL | Basic | cross_product | [Open](SQL/Basic/B001_cross_product) |
+| B002 | Python | Basic | lambda_function | [Open](Python/Basic/B002_lambda_function) |
+| B002 | SQL | Basic | muliple_table_join | [Open](SQL/Basic/B002_muliple_table_join) |
+| B003 | SQL | Basic | dealing_with_null | [Open](SQL/Basic/B003_dealing_with_null) |
+| B004 | SQL | Basic | Date_diff | [Open](SQL/Basic/B004_Date_diff) |
+| H001 | Python | Hard | next_date | [Open](Python/Hard/H001_next_date) |
+| H001 | SQL | Hard | Consecutive_login_days | [Open](SQL/Hard/H001_Consecutive_login_days) |
+| H002 | SQL | Hard | median_salary | [Open](SQL/Hard/H002_median_salary) |
+| H003 | SQL | Hard | Hierarchy_self_join | [Open](SQL/Hard/H003_Hierarchy_self_join) |
+| H004 | SQL | Hard | Consecutive_day_&_filtering | [Open](SQL/Hard/H004_Consecutive_day_&_filtering) |
+| H005 | SQL | Hard | wide_avg_company_comparison | [Open](SQL/Hard/H005_wide_avg_company_comparison) |
+| H006 | SQL | Hard | lag_streak | [Open](SQL/Hard/H006_lag_streak) |
+| M001 | Python | Medium | next_prime | [Open](Python/Medium/M001_next_prime) |
+| M001 | SQL | Medium | Higest_orderd_item | [Open](SQL/Medium/M001_Higest_orderd_item) |
+| M002 | Python | Medium | X_Pattern | [Open](Python/Medium/M002_X_Pattern) |
+| M002 | SQL | Medium | 2nd_max_salary | [Open](SQL/Medium/M002_2nd_max_salary) |
+| M003 | SQL | Medium | self_join | [Open](SQL/Medium/M003_self_join) |
+| M004 | SQL | Medium | running_total | [Open](SQL/Medium/M004_running_total) |
+| M005 | SQL | Medium | Lag_function | [Open](SQL/Medium/M005_Lag_function) |
