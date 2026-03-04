@@ -1,8 +1,22 @@
 import os
 import subprocess
 
-language = input("Language (SQL/Python): ").strip()
-difficulty = input("Difficulty (Basic/Medium/Hard): ").strip()
+language = input("Language (SQL/Python): ").strip().lower()
+
+if language not in ["sql", "python"]:
+    print("❌ Language must be SQL or Python")
+    exit()
+
+language = "SQL" if language == "sql" else "Python"
+
+difficulty = input("Difficulty (Basic/Medium/Hard): ").strip().lower()
+
+if difficulty not in ["basic", "medium", "hard"]:
+    print("❌ Difficulty must be Basic, Medium, or Hard")
+    exit()
+
+difficulty = difficulty.capitalize()
+
 name = input("Problem name: ").strip().replace(" ", "_")
 
 print("\nPaste content using markers:")
@@ -22,9 +36,19 @@ while True:
 
 content = "\n".join(lines)
 
-question = content.split("===SOLUTION===")[0].replace("===QUESTION===", "").strip()
-solution = content.split("===SOLUTION===")[1].split("===INSIGHTS===")[0].strip()
-insights = content.split("===INSIGHTS===")[1].strip()
+content_lower = content.lower()
+
+q_start = content_lower.find("===question===")
+s_start = content_lower.find("===solution===")
+i_start = content_lower.find("===insights===")
+
+if q_start == -1 or s_start == -1 or i_start == -1:
+    print("❌ Missing markers. Use ===QUESTION===, ===SOLUTION===, ===INSIGHTS===")
+    exit()
+
+question = content[q_start+13:s_start].strip()
+solution = content[s_start+13:i_start].strip()
+insights = content[i_start+13:].strip()
 
 base = os.path.join(language, difficulty)
 
