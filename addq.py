@@ -61,6 +61,10 @@ number = f"{prefix}{num:03d}"
 folder_name = f"{number}_{name}"
 path = os.path.join(base, folder_name)
 
+if os.path.exists(path):
+    print("❌ Folder already exists:", folder_name)
+    exit()
+
 os.makedirs(path)
 
 with open(os.path.join(path, "question.md"), "w") as f:
