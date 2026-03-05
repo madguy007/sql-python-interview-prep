@@ -8,7 +8,6 @@
 | B002 | SQL | Basic | muliple_table_join | [Open](SQL/Basic/B002_muliple_table_join) |
 | B003 | SQL | Basic | dealing_with_null | [Open](SQL/Basic/B003_dealing_with_null) |
 | B004 | SQL | Basic | Date_diff | [Open](SQL/Basic/B004_Date_diff) |
-| B005 | SQL | Basic | madan | [Open](SQL/Basic/B005_madan) |
 | H001 | Python | Hard | next_date | [Open](Python/Hard/H001_next_date) |
 | H001 | SQL | Hard | Consecutive_login_days | [Open](SQL/Hard/H001_Consecutive_login_days) |
 | H002 | SQL | Hard | median_salary | [Open](SQL/Hard/H002_median_salary) |
@@ -16,6 +15,8 @@
 | H004 | SQL | Hard | Consecutive_day_&_filtering | [Open](SQL/Hard/H004_Consecutive_day_&_filtering) |
 | H005 | SQL | Hard | wide_avg_company_comparison | [Open](SQL/Hard/H005_wide_avg_company_comparison) |
 | H006 | SQL | Hard | lag_streak | [Open](SQL/Hard/H006_lag_streak) |
+| H007 | SQL | Hard | top2_per_day | [Open](SQL/Hard/H007_top2_per_day) |
+| H008 | SQL | Hard | top2_user_activity | [Open](SQL/Hard/H008_top2_user_activity) |
 | M001 | Python | Medium | next_prime | [Open](Python/Medium/M001_next_prime) |
 | M001 | SQL | Medium | Higest_orderd_item | [Open](SQL/Medium/M001_Higest_orderd_item) |
 | M002 | Python | Medium | X_Pattern | [Open](Python/Medium/M002_X_Pattern) |

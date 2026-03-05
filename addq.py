@@ -66,18 +66,17 @@ if os.path.exists(path):
 
 os.makedirs(path)
 
-with open(os.path.join(path, "question.md"), "w") as f:
+with open(os.path.join(path, "question.md"), "w", encoding="utf8") as f:
     f.write(question)
 
 ext = "sql" if language.lower() == "sql" else "py"
 
-with open(os.path.join(path, f"solution.{ext}"), "w") as f:
+with open(os.path.join(path, f"solution.{ext}"), "w", encoding="utf8") as f:
     f.write(solution)
 
-with open(os.path.join(path, "insights.md"), "w") as f:
+with open(os.path.join(path, "insights.md"), "w", encoding="utf8") as f:
     f.write(insights)
 
-import os
 
 rows = []
 
