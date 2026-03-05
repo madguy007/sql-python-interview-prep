@@ -16,7 +16,7 @@
 | H005 | SQL | Hard | wide_avg_company_comparison | [Open](SQL/Hard/H005_wide_avg_company_comparison) |
 | H006 | SQL | Hard | lag_streak | [Open](SQL/Hard/H006_lag_streak) |
 | H007 | SQL | Hard | top2_per_day | [Open](SQL/Hard/H007_top2_per_day) |
-| H008 | SQL | Hard | top2_user_activity | [Open](SQL/Hard/H008_top2_user_activity) |
+| H008 | SQL | Hard | consecutive_day_streak_logic | [Open](SQL/Hard/H008_consecutive_day_streak_logic) |
 | M001 | Python | Medium | next_prime | [Open](Python/Medium/M001_next_prime) |
 | M001 | SQL | Medium | Higest_orderd_item | [Open](SQL/Medium/M001_Higest_orderd_item) |
 | M002 | Python | Medium | X_Pattern | [Open](Python/Medium/M002_X_Pattern) |
