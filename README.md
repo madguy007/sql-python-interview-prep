@@ -14,6 +14,7 @@
 | B007 | SQL | Basic | extrac_count_sum_in__one_select | [Open](SQL/Basic/B007_extrac_count_sum_in__one_select) |
 | H001 | Python | Hard | next_date | [Open](Python/Hard/H001_next_date) |
 | H001 | SQL | Hard | Consecutive_login_days | [Open](SQL/Hard/H001_Consecutive_login_days) |
+| H002 | Python | Hard | pascal_triangle | [Open](Python/Hard/H002_pascal_triangle) |
 | H002 | SQL | Hard | median_salary | [Open](SQL/Hard/H002_median_salary) |
 | H003 | SQL | Hard | Hierarchy_self_join | [Open](SQL/Hard/H003_Hierarchy_self_join) |
 | H004 | SQL | Hard | Consecutive_day_&_filtering | [Open](SQL/Hard/H004_Consecutive_day_&_filtering) |
