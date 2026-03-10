@@ -16,6 +16,7 @@
 | H001 | SQL | Hard | Consecutive_login_days | [Open](SQL/Hard/H001_Consecutive_login_days) |
 | H002 | Python | Hard | pascal_triangle | [Open](Python/Hard/H002_pascal_triangle) |
 | H002 | SQL | Hard | median_salary | [Open](SQL/Hard/H002_median_salary) |
+| H003 | Python | Hard | happy_number | [Open](Python/Hard/H003_happy_number) |
 | H003 | SQL | Hard | Hierarchy_self_join | [Open](SQL/Hard/H003_Hierarchy_self_join) |
 | H004 | SQL | Hard | Consecutive_day_&_filtering | [Open](SQL/Hard/H004_Consecutive_day_&_filtering) |
 | H005 | SQL | Hard | wide_avg_company_comparison | [Open](SQL/Hard/H005_wide_avg_company_comparison) |
