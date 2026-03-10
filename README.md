@@ -27,6 +27,7 @@
 | M001 | SQL | Medium | Higest_orderd_item | [Open](SQL/Medium/M001_Higest_orderd_item) |
 | M002 | Python | Medium | X_Pattern | [Open](Python/Medium/M002_X_Pattern) |
 | M002 | SQL | Medium | 2nd_max_salary | [Open](SQL/Medium/M002_2nd_max_salary) |
+| M003 | Python | Medium | excel_column_number | [Open](Python/Medium/M003_excel_column_number) |
 | M003 | SQL | Medium | self_join | [Open](SQL/Medium/M003_self_join) |
 | M004 | SQL | Medium | running_total | [Open](SQL/Medium/M004_running_total) |
 | M005 | SQL | Medium | Lag_function | [Open](SQL/Medium/M005_Lag_function) |
