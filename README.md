@@ -29,6 +29,7 @@
 | M002 | SQL | Medium | 2nd_max_salary | [Open](SQL/Medium/M002_2nd_max_salary) |
 | M003 | Python | Medium | excel_column_number | [Open](Python/Medium/M003_excel_column_number) |
 | M003 | SQL | Medium | self_join | [Open](SQL/Medium/M003_self_join) |
+| M004 | Python | Medium | isomorphic_string | [Open](Python/Medium/M004_isomorphic_string) |
 | M004 | SQL | Medium | running_total | [Open](SQL/Medium/M004_running_total) |
 | M005 | SQL | Medium | Lag_function | [Open](SQL/Medium/M005_Lag_function) |
 | M006 | SQL | Medium | customer_with_consecutive_purchase_2_days | [Open](SQL/Medium/M006_customer_with_consecutive_purchase_2_days) |
