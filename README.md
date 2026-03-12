@@ -35,4 +35,5 @@
 | M004 | SQL | Medium | running_total | [Open](SQL/Medium/M004_running_total) |
 | M005 | Python | Medium | recusive_list_sum | [Open](Python/Medium/M005_recusive_list_sum) |
 | M005 | SQL | Medium | Lag_function | [Open](SQL/Medium/M005_Lag_function) |
+| M006 | Python | Medium | recursive_list_sum | [Open](Python/Medium/M006_recursive_list_sum) |
 | M006 | SQL | Medium | customer_with_consecutive_purchase_2_days | [Open](SQL/Medium/M006_customer_with_consecutive_purchase_2_days) |
