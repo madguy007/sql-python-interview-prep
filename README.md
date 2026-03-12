@@ -20,6 +20,7 @@
 | H003 | SQL | Hard | Hierarchy_self_join | [Open](SQL/Hard/H003_Hierarchy_self_join) |
 | H004 | Python | Hard | diamond_pattern | [Open](Python/Hard/H004_diamond_pattern) |
 | H004 | SQL | Hard | Consecutive_day_&_filtering | [Open](SQL/Hard/H004_Consecutive_day_&_filtering) |
+| H005 | Python | Hard | longest_prefix | [Open](Python/Hard/H005_longest_prefix) |
 | H005 | SQL | Hard | wide_avg_company_comparison | [Open](SQL/Hard/H005_wide_avg_company_comparison) |
 | H006 | SQL | Hard | lag_streak | [Open](SQL/Hard/H006_lag_streak) |
 | H007 | SQL | Hard | top2_per_day | [Open](SQL/Hard/H007_top2_per_day) |
