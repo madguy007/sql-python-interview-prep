@@ -4,6 +4,7 @@ Example
 
 Input
 5
+```
 
 Output
     1    
@@ -15,7 +16,7 @@ Output
   12345  
    123   
     1    
-
+```
 Rules
 1. The middle row contains numbers from 1 to (2*n - 1)
 2. Each row above the middle increases numbers by 2
