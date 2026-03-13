@@ -22,6 +22,7 @@
 | H004 | SQL | Hard | Consecutive_day_&_filtering | [Open](SQL/Hard/H004_Consecutive_day_&_filtering) |
 | H005 | Python | Hard | longest_prefix | [Open](Python/Hard/H005_longest_prefix) |
 | H005 | SQL | Hard | wide_avg_company_comparison | [Open](SQL/Hard/H005_wide_avg_company_comparison) |
+| H006 | Python | Hard | recusive_list_unpacking | [Open](Python/Hard/H006_recusive_list_unpacking) |
 | H006 | SQL | Hard | lag_streak | [Open](SQL/Hard/H006_lag_streak) |
 | H007 | SQL | Hard | top2_per_day | [Open](SQL/Hard/H007_top2_per_day) |
 | H008 | SQL | Hard | consecutive_day_streak_logic | [Open](SQL/Hard/H008_consecutive_day_streak_logic) |
