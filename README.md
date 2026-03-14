@@ -26,6 +26,7 @@
 | H005 | SQL | Hard | wide_avg_company_comparison | [Open](SQL/Hard/H005_wide_avg_company_comparison) |
 | H006 | Python | Hard | recusive_list_unpacking | [Open](Python/Hard/H006_recusive_list_unpacking) |
 | H006 | SQL | Hard | lag_streak | [Open](SQL/Hard/H006_lag_streak) |
+| H007 | Python | Hard | rectangle_pattern | [Open](Python/Hard/H007_rectangle_pattern) |
 | H007 | SQL | Hard | top2_per_day | [Open](SQL/Hard/H007_top2_per_day) |
 | H008 | SQL | Hard | consecutive_day_streak_logic | [Open](SQL/Hard/H008_consecutive_day_streak_logic) |
 | M001 | Python | Medium | next_prime | [Open](Python/Medium/M001_next_prime) |
