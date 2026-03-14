@@ -8,6 +8,7 @@
 | B002 | SQL | Basic | muliple_table_join | [Open](SQL/Basic/B002_muliple_table_join) |
 | B003 | Python | Basic | sum_of_pairs_equal_to_target | [Open](Python/Basic/B003_sum_of_pairs_equal_to_target) |
 | B003 | SQL | Basic | dealing_with_null | [Open](SQL/Basic/B003_dealing_with_null) |
+| B004 | Python | Basic | roman_to_number | [Open](Python/Basic/B004_roman_to_number) |
 | B004 | SQL | Basic | Date_diff | [Open](SQL/Basic/B004_Date_diff) |
 | B005 | SQL | Basic | count_use | [Open](SQL/Basic/B005_count_use) |
 | B006 | SQL | Basic | day_of_week | [Open](SQL/Basic/B006_day_of_week) |
