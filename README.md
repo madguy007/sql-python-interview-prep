@@ -28,6 +28,7 @@
 | H006 | SQL | Hard | lag_streak | [Open](SQL/Hard/H006_lag_streak) |
 | H007 | Python | Hard | rectangle_pattern | [Open](Python/Hard/H007_rectangle_pattern) |
 | H007 | SQL | Hard | top2_per_day | [Open](SQL/Hard/H007_top2_per_day) |
+| H008 | Python | Hard | count_substrings | [Open](Python/Hard/H008_count_substrings) |
 | H008 | SQL | Hard | consecutive_day_streak_logic | [Open](SQL/Hard/H008_consecutive_day_streak_logic) |
 | M001 | Python | Medium | next_prime | [Open](Python/Medium/M001_next_prime) |
 | M001 | SQL | Medium | Higest_orderd_item | [Open](SQL/Medium/M001_Higest_orderd_item) |
