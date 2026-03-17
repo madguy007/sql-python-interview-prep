@@ -46,3 +46,4 @@
 | M007 | Python | Medium | longest_substing | [Open](Python/Medium/M007_longest_substing) |
 | M007 | SQL | Medium | self_and_window_for_consecutive_problem | [Open](SQL/Medium/M007_self_and_window_for_consecutive_problem) |
 | M008 | SQL | Medium | self_join | [Open](SQL/Medium/M008_self_join) |
+| M009 | SQL | Medium | department_top_employee_salary | [Open](SQL/Medium/M009_department_top_employee_salary) |
