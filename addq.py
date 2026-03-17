@@ -24,12 +24,12 @@ print("===QUESTION===")
 print("===SOLUTION===")
 print("===INSIGHTS===")
 
-print("Paste everything now. Finish by typing END on a new line.\n")
+print("Paste everything now. Finish by typing MADDY on a new line.\n")
 
 lines = []
 while True:
     line = input()
-    if line.strip() == "END":
+    if line.strip() == "MADDY":
         break
     lines.append(line)
 
@@ -40,7 +40,6 @@ content_lower = content.lower()
 q_start = content_lower.find("===question===")
 s_start = content_lower.find("===solution===")
 i_start = content_lower.find("===insights===")
-
 
 if q_start == -1 or s_start == -1 or i_start == -1:
     print("❌ Missing markers. Use ===QUESTION===, ===SOLUTION===, ===INSIGHTS===")
@@ -78,7 +77,6 @@ with open(os.path.join(path, f"solution.{ext}"), "w", encoding="utf8") as f:
 with open(os.path.join(path, "insights.md"), "w", encoding="utf8") as f:
     f.write(insights)
 
-
 rows = []
 
 for language in ["SQL","Python"]:
@@ -106,7 +104,6 @@ for language in ["SQL","Python"]:
                 link = f"{language}/{difficulty}/{folder}"
 
                 rows.append((pid,language,difficulty,name,link))
-
 
 rows.sort()
 

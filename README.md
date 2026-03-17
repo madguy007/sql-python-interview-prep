@@ -45,4 +45,4 @@
 | M006 | SQL | Medium | customer_with_consecutive_purchase_2_days | [Open](SQL/Medium/M006_customer_with_consecutive_purchase_2_days) |
 | M007 | Python | Medium | longest_substing | [Open](Python/Medium/M007_longest_substing) |
 | M007 | SQL | Medium | self_and_window_for_consecutive_problem | [Open](SQL/Medium/M007_self_and_window_for_consecutive_problem) |
-| M008 | SQL | Medium | hello | [Open](SQL/Medium/M008_hello) |
+| M008 | SQL | Medium | self_join | [Open](SQL/Medium/M008_self_join) |
