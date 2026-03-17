@@ -1,0 +1,1 @@
+I started with comparing the elements with i and j = i+1 position but it was not right. and I got to learn that s = 'abc' can be make emppty with s =""

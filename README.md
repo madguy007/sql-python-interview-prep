@@ -42,3 +42,4 @@
 | M005 | SQL | Medium | Lag_function | [Open](SQL/Medium/M005_Lag_function) |
 | M006 | Python | Medium | bracets_close | [Open](Python/Medium/M006_bracets_close) |
 | M006 | SQL | Medium | customer_with_consecutive_purchase_2_days | [Open](SQL/Medium/M006_customer_with_consecutive_purchase_2_days) |
+| M007 | Python | Medium | longest_substing | [Open](Python/Medium/M007_longest_substing) |
