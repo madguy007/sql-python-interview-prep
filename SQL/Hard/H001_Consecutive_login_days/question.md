@@ -17,7 +17,7 @@ Return:
 Only those users who have logged in on at least 3 consecutive calendar days.
 
 ## Example
-
+```
 Input:
 
 user_id | login_date
@@ -29,6 +29,6 @@ user_id | login_date
 
 Output:
 1
-
+```
 Explanation:
 Jan 13, Jan 14, Jan 15 are 3 consecutive days.
