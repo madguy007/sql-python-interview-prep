@@ -41,6 +41,7 @@ q_start = content_lower.find("===question===")
 s_start = content_lower.find("===solution===")
 i_start = content_lower.find("===insights===")
 
+
 if q_start == -1 or s_start == -1 or i_start == -1:
     print("❌ Missing markers. Use ===QUESTION===, ===SOLUTION===, ===INSIGHTS===")
     exit()
