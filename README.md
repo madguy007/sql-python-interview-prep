@@ -16,6 +16,7 @@
 | B007 | SQL | Basic | extrac_count_sum_in__one_select | [Open](SQL/Basic/B007_extrac_count_sum_in__one_select) |
 | B008 | SQL | Basic | union_use | [Open](SQL/Basic/B008_union_use) |
 | B009 | SQL | Basic | sales_analysis_-_group_statisfy | [Open](SQL/Basic/B009_sales_analysis_-_group_statisfy) |
+| B010 | SQL | Basic | pivot_using_sql | [Open](SQL/Basic/B010_pivot_using_sql) |
 | H001 | Python | Hard | next_date | [Open](Python/Hard/H001_next_date) |
 | H001 | SQL | Hard | Consecutive_login_days | [Open](SQL/Hard/H001_Consecutive_login_days) |
 | H002 | Python | Hard | pascal_triangle | [Open](Python/Hard/H002_pascal_triangle) |
