@@ -53,3 +53,4 @@
 | M010 | SQL | Medium | Highest_grade_for_each_student | [Open](SQL/Medium/M010_Highest_grade_for_each_student) |
 | M011 | SQL | Medium | new_usere_daily_count | [Open](SQL/Medium/M011_new_usere_daily_count) |
 | M012 | SQL | Medium | activity_participants | [Open](SQL/Medium/M012_activity_participants) |
+| M013 | SQL | Medium | overall_acceptance_rate | [Open](SQL/Medium/M013_overall_acceptance_rate) |
