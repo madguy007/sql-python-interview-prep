@@ -52,3 +52,4 @@
 | M009 | SQL | Medium | department_top_employee_salary | [Open](SQL/Medium/M009_department_top_employee_salary) |
 | M010 | SQL | Medium | Highest_grade_for_each_student | [Open](SQL/Medium/M010_Highest_grade_for_each_student) |
 | M011 | SQL | Medium | new_usere_daily_count | [Open](SQL/Medium/M011_new_usere_daily_count) |
+| M012 | SQL | Medium | activity_participants | [Open](SQL/Medium/M012_activity_participants) |
