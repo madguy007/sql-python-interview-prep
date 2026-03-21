@@ -56,3 +56,4 @@
 | M013 | SQL | Medium | overall_acceptance_rate | [Open](SQL/Medium/M013_overall_acceptance_rate) |
 | M014 | SQL | Medium | swqp_id's | [Open](SQL/Medium/M014_swqp_id's) |
 | M015 | SQL | Medium | active_business | [Open](SQL/Medium/M015_active_business) |
+| M016 | SQL | Medium | Employees_project_analysis | [Open](SQL/Medium/M016_Employees_project_analysis) |
