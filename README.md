@@ -54,3 +54,4 @@
 | M011 | SQL | Medium | new_usere_daily_count | [Open](SQL/Medium/M011_new_usere_daily_count) |
 | M012 | SQL | Medium | activity_participants | [Open](SQL/Medium/M012_activity_participants) |
 | M013 | SQL | Medium | overall_acceptance_rate | [Open](SQL/Medium/M013_overall_acceptance_rate) |
+| M014 | SQL | Medium | swqp_id's | [Open](SQL/Medium/M014_swqp_id's) |
