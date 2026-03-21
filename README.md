@@ -34,6 +34,7 @@
 | H007 | SQL | Hard | top2_per_day | [Open](SQL/Hard/H007_top2_per_day) |
 | H008 | Python | Hard | count_substrings | [Open](Python/Hard/H008_count_substrings) |
 | H008 | SQL | Hard | consecutive_day_streak_logic | [Open](SQL/Hard/H008_consecutive_day_streak_logic) |
+| H009 | SQL | Hard | customers_converted_from_free_paid | [Open](SQL/Hard/H009_customers_converted_from_free_paid) |
 | M001 | Python | Medium | next_prime | [Open](Python/Medium/M001_next_prime) |
 | M001 | SQL | Medium | Higest_orderd_item | [Open](SQL/Medium/M001_Higest_orderd_item) |
 | M002 | Python | Medium | X_Pattern | [Open](Python/Medium/M002_X_Pattern) |
