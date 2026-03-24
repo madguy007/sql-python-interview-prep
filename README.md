@@ -50,6 +50,7 @@
 | M006 | SQL | Medium | customer_with_consecutive_purchase_2_days | [Open](SQL/Medium/M006_customer_with_consecutive_purchase_2_days) |
 | M007 | Python | Medium | longest_substing | [Open](Python/Medium/M007_longest_substing) |
 | M007 | SQL | Medium | self_and_window_for_consecutive_problem | [Open](SQL/Medium/M007_self_and_window_for_consecutive_problem) |
+| M008 | Python | Medium | 3sum | [Open](Python/Medium/M008_3sum) |
 | M008 | SQL | Medium | self_join | [Open](SQL/Medium/M008_self_join) |
 | M009 | SQL | Medium | department_top_employee_salary | [Open](SQL/Medium/M009_department_top_employee_salary) |
 | M010 | SQL | Medium | Highest_grade_for_each_student | [Open](SQL/Medium/M010_Highest_grade_for_each_student) |
