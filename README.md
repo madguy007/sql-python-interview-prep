@@ -1,5 +1,16 @@
 # SQL & Python Interview Prep
 
+## Excution order in the SQL Query 
+
+FROM / JOIN → get data
+WHERE → filter rows
+GROUP BY → create groups
+Aggregate functions (SUM, COUNT, etc.) → compute per group
+HAVING → filter groups
+Window functions (OVER) → operate on final row set
+SELECT → choose columns
+ORDER BY → final sorting
+
 | ID | Language | Difficulty | Problem | Link |
 |----|----------|-----------|--------|------|
 | B001 | Python | Basic | sum_check_digit | [Open](Python/Basic/B001_sum_check_digit) |
