@@ -38,6 +38,7 @@ INNER JOIN directly connects only relevant rows.
 
 ## 🔁 Converting Logic into Cross Join (Old Syntax)
 ```
+SELECT *
 FROM orders o, customer c, salesman s
 WHERE o.customer_id = c.customer_id
 AND o.salesman_id = s.salesman_id
