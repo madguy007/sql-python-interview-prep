@@ -44,7 +44,8 @@ Difference
 SELECT 
 strftime('%Y', date_column) AS year,
 strftime('%m', date_column) AS month,
-strftime('%d', date_column) AS day
+strftime('%d', date_column) AS day,
+strftime('%w',date_column) as Dayofweek
 FROM table_name;
 ```
 Example
