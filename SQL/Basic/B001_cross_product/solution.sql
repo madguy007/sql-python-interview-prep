@@ -4,5 +4,5 @@ SELECT c.cust_name,
        s.name,
        s.city
 FROM customer c
-JOIN salesman s
-  ON s.city = c.city;
+CROSS JOIN salesman s
+WHERE s.city = c.city;
