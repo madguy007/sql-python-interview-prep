@@ -59,23 +59,23 @@ Output
 ---
 
 ### MySQL
-
+```
 SELECT 
 YEAR(date_column),
 MONTH(date_column),
 DAY(date_column)
 FROM table_name;
-
+```
 ---
 
 ### PostgreSQL
-
+```
 SELECT 
 EXTRACT(YEAR FROM date_column),
 EXTRACT(MONTH FROM date_column),
 EXTRACT(DAY FROM date_column)
 FROM table_name;
-
+```
 ---
 
 ## 4. Important SQLite Detail
