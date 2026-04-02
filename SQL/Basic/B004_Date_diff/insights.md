@@ -40,13 +40,13 @@ Difference
 ## 3. Extracting Year, Month, and Day
 
 ### SQLite
-
+```
 SELECT 
 strftime('%Y', date_column) AS year,
 strftime('%m', date_column) AS month,
 strftime('%d', date_column) AS day
 FROM table_name;
-
+```
 Example
 
 SELECT strftime('%Y','2023-01-15');
