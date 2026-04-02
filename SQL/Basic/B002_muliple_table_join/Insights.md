@@ -37,12 +37,12 @@ INNER JOIN directly connects only relevant rows.
 ---
 
 ## 🔁 Converting Logic into Cross Join (Old Syntax)
-
+```
 FROM orders o, customer c, salesman s
 WHERE o.customer_id = c.customer_id
 AND o.salesman_id = s.salesman_id
 AND c.city <> s.city;
-
+```
 Here:
 1. All tables are cross joined first.
 2. WHERE clause filters matching relationships.
