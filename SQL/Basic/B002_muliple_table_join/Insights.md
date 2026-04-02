@@ -23,7 +23,7 @@ Order → Customer → Salesman → Compare city
 ## ✅ Converting Logic into INNER JOIN
 
 Relationship first, then filter:
-
+```
 SELECT ...
 FROM orders o
 JOIN customer c
@@ -31,7 +31,7 @@ JOIN customer c
 JOIN salesman s
   ON o.salesman_id = s.salesman_id
 WHERE c.city <> s.city;
-
+```
 INNER JOIN directly connects only relevant rows.
 
 ---
