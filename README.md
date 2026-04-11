@@ -9,7 +9,7 @@
 - HAVING → filter groups
 - Window functions (OVER) → operate on final row set
 - SELECT → choose columns
-- ORDER BY → final sorting
+- ORDER BY → final Sorting
 
 | ID | Language | Difficulty | Problem | Link |
 |----|----------|-----------|--------|------|
