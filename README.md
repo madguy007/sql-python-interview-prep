@@ -1,16 +1,5 @@
 # SQL & Python Interview Prep
 
-## Excution order in the SQL Query 
-
-- FROM / JOIN → get data
-- WHERE → filter rows
-- GROUP BY → create groups
-- Aggregate functions (SUM, COUNT, etc.) → compute per group
-- HAVING → filter groups
-- Window functions (OVER) → operate on final row set
-- SELECT → choose columns
-- ORDER BY → final Sorting
-
 | ID | Language | Difficulty | Problem | Link |
 |----|----------|-----------|--------|------|
 | B001 | Python | Basic | sum_check_digit | [Open](Python/Basic/B001_sum_check_digit) |
@@ -23,6 +12,7 @@
 | B004 | SQL | Basic | Date_diff | [Open](SQL/Basic/B004_Date_diff) |
 | B005 | Python | Basic | insert_at_given_index | [Open](Python/Basic/B005_insert_at_given_index) |
 | B005 | SQL | Basic | count_use | [Open](SQL/Basic/B005_count_use) |
+| B006 | Python | Basic | hashmap_and_cannonical_form_pattern | [Open](Python/Basic/B006_hashmap_and_cannonical_form_pattern) |
 | B006 | SQL | Basic | day_of_week | [Open](SQL/Basic/B006_day_of_week) |
 | B007 | SQL | Basic | extrac_count_sum_in__one_select | [Open](SQL/Basic/B007_extrac_count_sum_in__one_select) |
 | B008 | SQL | Basic | union_use | [Open](SQL/Basic/B008_union_use) |
