@@ -14,6 +14,7 @@
 | B005 | SQL | Basic | count_use | [Open](SQL/Basic/B005_count_use) |
 | B006 | Python | Basic | hashmap_and_cannonical_form_pattern | [Open](Python/Basic/B006_hashmap_and_cannonical_form_pattern) |
 | B006 | SQL | Basic | day_of_week | [Open](SQL/Basic/B006_day_of_week) |
+| B007 | Python | Basic | sliding_window | [Open](Python/Basic/B007_sliding_window) |
 | B007 | SQL | Basic | extrac_count_sum_in__one_select | [Open](SQL/Basic/B007_extrac_count_sum_in__one_select) |
 | B008 | SQL | Basic | union_use | [Open](SQL/Basic/B008_union_use) |
 | B009 | SQL | Basic | sales_analysis_-_group_statisfy | [Open](SQL/Basic/B009_sales_analysis_-_group_statisfy) |
