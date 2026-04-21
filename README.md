@@ -16,6 +16,7 @@
 | B006 | SQL | Basic | day_of_week | [Open](SQL/Basic/B006_day_of_week) |
 | B007 | Python | Basic | sliding_window | [Open](Python/Basic/B007_sliding_window) |
 | B007 | SQL | Basic | extrac_count_sum_in__one_select | [Open](SQL/Basic/B007_extrac_count_sum_in__one_select) |
+| B008 | Python | Basic | sliding_window_vowels | [Open](Python/Basic/B008_sliding_window_vowels) |
 | B008 | SQL | Basic | union_use | [Open](SQL/Basic/B008_union_use) |
 | B009 | SQL | Basic | sales_analysis_-_group_statisfy | [Open](SQL/Basic/B009_sales_analysis_-_group_statisfy) |
 | B010 | SQL | Basic | pivot_using_sql | [Open](SQL/Basic/B010_pivot_using_sql) |
