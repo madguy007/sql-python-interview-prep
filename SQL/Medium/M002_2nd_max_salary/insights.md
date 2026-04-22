@@ -46,3 +46,4 @@ This satisfies the problem requirement.
 - Forgetting to remove duplicates
 - Returning employee rows instead of just salary
 - Not handling the NULL edge case
+- dd
