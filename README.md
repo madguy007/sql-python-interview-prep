@@ -20,6 +20,7 @@
 | B008 | SQL | Basic | union_use | [Open](SQL/Basic/B008_union_use) |
 | B009 | Python | Basic | max_value_in_dic | [Open](Python/Basic/B009_max_value_in_dic) |
 | B009 | SQL | Basic | sales_analysis_-_group_statisfy | [Open](SQL/Basic/B009_sales_analysis_-_group_statisfy) |
+| B010 | Python | Basic | prime_factors_finding | [Open](Python/Basic/B010_prime_factors_finding) |
 | B010 | SQL | Basic | pivot_using_sql | [Open](SQL/Basic/B010_pivot_using_sql) |
 | B011 | SQL | Basic | using_substr_Instr_length | [Open](SQL/Basic/B011_using_substr_Instr_length) |
 | B012 | SQL | Basic | duplicated_email | [Open](SQL/Basic/B012_duplicated_email) |
