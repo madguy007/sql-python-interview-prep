@@ -14,7 +14,7 @@ Columns:
 Each row represents a student sitting on a seat.
 
 Example:
-
+```
 Input:
 Seat table:
 id | student
@@ -31,3 +31,4 @@ id | student
 3  | D
 4  | C
 5  | E
+```
