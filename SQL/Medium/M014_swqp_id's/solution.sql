@@ -1,15 +1,10 @@
 -- Approach 1: Using CASE + COUNT (Most common solution)
 
-SELECT 
-    CASE
-        WHEN id % 2 = 1 AND id != counts THEN id + 1
-        WHEN id % 2 = 1 AND id = counts THEN id
-        ELSE id - 1
-    END AS id,
-    student
-FROM Seat,
-     (SELECT COUNT(*) AS counts FROM Seat) AS seat_counts
-ORDER BY id;
+select case when id % 2 = 1 and id != (select max(id) from Seat) then id+1
+            when id % 2 = 0 then id-1
+            else id end as id, student
+from Seat
+order by id
 
 
 -- Approach 2: Using LEAD and LAG (Window Functions)
