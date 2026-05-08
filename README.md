@@ -66,3 +66,4 @@
 | M014 | SQL | Medium | swqp_id's | [Open](SQL/Medium/M014_swqp_id's) |
 | M015 | SQL | Medium | active_business | [Open](SQL/Medium/M015_active_business) |
 | M016 | SQL | Medium | Employees_project_analysis | [Open](SQL/Medium/M016_Employees_project_analysis) |
+| M017 | SQL | Medium | categorization_with_union_all | [Open](SQL/Medium/M017_categorization_with_union_all) |
