@@ -24,6 +24,7 @@
 | B010 | SQL | Basic | pivot_using_sql | [Open](SQL/Basic/B010_pivot_using_sql) |
 | B011 | SQL | Basic | using_substr_Instr_length | [Open](SQL/Basic/B011_using_substr_Instr_length) |
 | B012 | SQL | Basic | duplicated_email | [Open](SQL/Basic/B012_duplicated_email) |
+| B013 | SQL | Basic | group_by_and_filter_as_per_condition | [Open](SQL/Basic/B013_group_by_and_filter_as_per_condition) |
 | H001 | Python | Hard | next_date | [Open](Python/Hard/H001_next_date) |
 | H001 | SQL | Hard | Consecutive_login_days | [Open](SQL/Hard/H001_Consecutive_login_days) |
 | H002 | Python | Hard | pascal_triangle | [Open](Python/Hard/H002_pascal_triangle) |
