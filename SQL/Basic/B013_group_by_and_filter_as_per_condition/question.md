@@ -1,5 +1,5 @@
 Table: Employee
-
+```
 +---------------+---------+
 | Column Name   | Type    |
 +---------------+---------+
@@ -7,7 +7,7 @@ Table: Employee
 | department_id | int     |
 | primary_flag  | varchar |
 +---------------+---------+
-
+```
 (employee_id, department_id) is the primary key.
 
 Each employee can belong to multiple departments:
@@ -17,7 +17,7 @@ Each employee can belong to multiple departments:
 Write an SQL query to report each employee with their primary department.
 
 Example:
-
+```
 Input:
 +-------------+---------------+--------------+
 | employee_id | department_id | primary_flag |
@@ -39,3 +39,5 @@ Output:
 | 2           | 1             |
 | 3           | 3             |
 | 4           | 3             |
+-------------------------------
+```
