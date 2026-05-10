@@ -74,4 +74,5 @@
 | M016 | Medium | Employees_project_analysis | [Open](SQL/Medium/M016_Employees_project_analysis) |
 | M017 | Medium | categorization_with_union_all | [Open](SQL/Medium/M017_categorization_with_union_all) |
 | M018 | Medium | last_7_day_rolling_sum | [Open](SQL/Medium/M018_last_7_day_rolling_sum) |
+| M019 | Medium | instead_of_self_join_subquery | [Open](SQL/Medium/M019_instead_of_self_join_subquery) |
 
