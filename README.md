@@ -56,7 +56,6 @@
 | H007 | Hard | top2_per_day | [Open](SQL/Hard/H007_top2_per_day) |
 | H008 | Hard | consecutive_day_streak_logic | [Open](SQL/Hard/H008_consecutive_day_streak_logic) |
 | H009 | Hard | customers_converted_from_free_paid | [Open](SQL/Hard/H009_customers_converted_from_free_paid) |
-| H010 | Hard | maddy | [Open](SQL/Hard/H010_maddy) |
 | M001 | Medium | Higest_orderd_item | [Open](SQL/Medium/M001_Higest_orderd_item) |
 | M002 | Medium | 2nd_max_salary | [Open](SQL/Medium/M002_2nd_max_salary) |
 | M003 | Medium | self_join | [Open](SQL/Medium/M003_self_join) |
@@ -74,4 +73,5 @@
 | M015 | Medium | active_business | [Open](SQL/Medium/M015_active_business) |
 | M016 | Medium | Employees_project_analysis | [Open](SQL/Medium/M016_Employees_project_analysis) |
 | M017 | Medium | categorization_with_union_all | [Open](SQL/Medium/M017_categorization_with_union_all) |
+| M018 | Medium | rows_between_unbounded_preceding | [Open](SQL/Medium/M018_rows_between_unbounded_preceding) |
 
