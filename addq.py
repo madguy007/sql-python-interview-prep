@@ -77,44 +77,40 @@ with open(os.path.join(path, f"solution.{ext}"), "w", encoding="utf8") as f:
 with open(os.path.join(path, "insights.md"), "w", encoding="utf8") as f:
     f.write(insights)
 
-rows = []
+# Generate README content with separate tables
+readme = "# SQL & Python Interview Prep\n\n"
 
-for language in ["SQL","Python"]:
-    for difficulty in ["Basic","Medium","Hard"]:
+for lang in ["Python", "SQL"]:
+    readme += f"## {lang} Questions\n"
+    readme += "| ID | Difficulty | Problem | Link |\n"
+    readme += "|----|-----------|---------|------|\n"
 
-        path = os.path.join(language,difficulty)
-
-        if not os.path.exists(path):
+    # Gather all rows for this specific language
+    lang_rows = []
+    for diff in ["Basic", "Medium", "Hard"]:
+        p = os.path.join(lang, diff)
+        if not os.path.exists(p):
             continue
 
-        for folder in os.listdir(path):
-
-            full = os.path.join(path,folder)
-
+        for folder in os.listdir(p):
+            full = os.path.join(p, folder)
             if os.path.isdir(full):
-
-                parts = folder.split("_",1)
-
+                parts = folder.split("_", 1)
                 if len(parts) != 2:
                     continue
+                pid, pname = parts[0], parts[1]
+                link = f"{lang}/{diff}/{folder}"
+                lang_rows.append((pid, diff, pname, link))
 
-                pid = parts[0]
-                name = parts[1]
+    # Sort by ID
+    lang_rows.sort()
 
-                link = f"{language}/{difficulty}/{folder}"
+    for r in lang_rows:
+        readme += f"| {r[0]} | {r[1]} | {r[2]} | [Open]({r[3]}) |\n"
 
-                rows.append((pid,language,difficulty,name,link))
+    readme += "\n"
 
-rows.sort()
-
-readme = "# SQL & Python Interview Prep\n\n"
-readme += "| ID | Language | Difficulty | Problem | Link |\n"
-readme += "|----|----------|-----------|--------|------|\n"
-
-for r in rows:
-    readme += f"| {r[0]} | {r[1]} | {r[2]} | {r[3]} | [Open]({r[4]}) |\n"
-
-with open("README.md","w",encoding="utf8") as f:
+with open("README.md", "w", encoding="utf8") as f:
     f.write(readme)
 
 print("README updated")
