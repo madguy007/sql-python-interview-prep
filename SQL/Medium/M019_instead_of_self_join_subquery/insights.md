@@ -1,4 +1,4 @@
-- This problem combines:
+## This problem combines:
   1. Duplicate value filtering
   2. Unique location filtering
 
