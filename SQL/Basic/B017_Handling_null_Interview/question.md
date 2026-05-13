@@ -1,0 +1,1 @@
+How do you handle NULL values in SQL? Provide practical examples.
