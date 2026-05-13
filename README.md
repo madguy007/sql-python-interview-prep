@@ -48,6 +48,7 @@
 | B013 | Basic | group_by_and_filter_as_per_condition | [Open](SQL/Basic/B013_group_by_and_filter_as_per_condition) |
 | B014 | Basic | group_concat | [Open](SQL/Basic/B014_group_concat) |
 | B015 | Basic | key_in_min,max,sorted | [Open](SQL/Basic/B015_key_in_min,max,sorted) |
+| B016 | Basic | DDL_DML_commands | [Open](SQL/Basic/B016_DDL_DML_commands) |
 | H001 | Hard | Consecutive_login_days | [Open](SQL/Hard/H001_Consecutive_login_days) |
 | H002 | Hard | median_salary | [Open](SQL/Hard/H002_median_salary) |
 | H003 | Hard | Hierarchy_self_join | [Open](SQL/Hard/H003_Hierarchy_self_join) |
