@@ -1,0 +1,1 @@
+How do you calculate monthly customer churn trend using SQL?
