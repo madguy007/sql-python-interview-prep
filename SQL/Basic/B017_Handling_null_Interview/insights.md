@@ -14,9 +14,7 @@ salary = NULL
 Correct:
 salary IS NULL
 
-==================================
-Common NULL Handling Techniques
-==================================
+### Common NULL Handling Techniques
 
 1. IS NULL
 - Finds missing values
