@@ -1,4 +1,4 @@
-- The minimum sum of factors is achieved through prime factorization.
+-- The minimum sum of factors is achieved through prime factorization.
 - Breaking a number into its smallest prime factors always minimizes total sum.
 
 Example:
