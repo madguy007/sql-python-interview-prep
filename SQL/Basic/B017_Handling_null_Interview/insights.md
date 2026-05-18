@@ -69,9 +69,9 @@ COUNT(column) ignores NULL rows
 Example:
 CASE WHEN salary IS NULL THEN 'Unknown'
 
-==================================================
-Interview Memory Rules
-==================================================
+
+## Interview Memory Rules
+
 
 Missing value?
 → IS NULL
