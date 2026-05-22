@@ -80,4 +80,5 @@
 | M018 | Medium | last_7_day_rolling_sum | [Open](SQL/Medium/M018_last_7_day_rolling_sum) |
 | M019 | Medium | instead_of_self_join_subquery | [Open](SQL/Medium/M019_instead_of_self_join_subquery) |
 | M020 | Medium | Recursion_with_sign_handle | [Open](SQL/Medium/M020_Recursion_with_sign_handle) |
+| M021 | Medium | matrix_movement_problem | [Open](SQL/Medium/M021_matrix_movement_problem) |
 
