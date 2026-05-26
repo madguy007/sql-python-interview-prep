@@ -47,3 +47,5 @@ Interview Pattern:
 - Efficient divisor checking
 
 This is a classic number theory interview problem.
+
+yes
