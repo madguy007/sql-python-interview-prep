@@ -29,6 +29,7 @@
 | M006 | Medium | bracets_close | [Open](Python/Medium/M006_bracets_close) |
 | M007 | Medium | longest_substing | [Open](Python/Medium/M007_longest_substing) |
 | M008 | Medium | 3sum | [Open](Python/Medium/M008_3sum) |
+| M009 | Medium | longest_sequence | [Open](Python/Medium/M009_longest_sequence) |
 
 ## SQL Questions
 | ID | Difficulty | Problem | Link |
