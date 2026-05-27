@@ -1,13 +1,13 @@
--- The minimum sum of factors is achieved through prime factorization.
+### The minimum sum of factors is achieved through prime factorization.
 - Breaking a number into its smallest prime factors always minimizes total sum.
-
+```
 Example:
 12
 - 12 + 1 = 13
 - 2 + 6 = 8
 - 3 + 4 = 7
 - 2 + 2 + 3 = 7
-
+```
 So prime factors provide the minimum.
 
 Core Logic:
@@ -47,3 +47,5 @@ Interview Pattern:
 - Efficient divisor checking
 
 This is a classic number theory interview problem.
+
+yes
