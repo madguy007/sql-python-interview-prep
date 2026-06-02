@@ -1,4 +1,4 @@
-# M002 - Different Cities
+# B002 - Different Cities
 
 ## Problem
 
