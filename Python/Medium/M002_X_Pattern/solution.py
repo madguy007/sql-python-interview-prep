@@ -1,14 +1,15 @@
 n = int(input())
 
-s = 1
-k = n
+def x_pattern(n):
+      for i in range(1,n+1):
+            for j in range(1,n+1):
+                 if i == j or i+j == n+1: 
+                     print("*",end=" ")
+                 else:
+                     print(" ",end=" ")
+            print() 
 
-for m in range(n):
-    for i in range(1, n + 1):
-        if i == s or i == k:
-            print('*', end="")
-        else:
-            print(' ', end="")
-    print()
-    s += 1
-    k -= 1
+x_pattern(n) 
+
+
+
