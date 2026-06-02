@@ -26,12 +26,12 @@ How do we retrieve the maximum order_count per customer
 when multiple products have the same count?
 
 Example:
-
+```
 Customer B ordered:
 curry  -> 2
 sushi  -> 2
 ramen  -> 2
-
+```
 All three are maximum.
 
 Using only:
