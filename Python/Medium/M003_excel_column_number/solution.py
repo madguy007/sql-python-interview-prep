@@ -31,12 +31,7 @@ def excel_to_number(st):
     num = 0
     i = 0
     
-    if len(st) == 1:
-        new_str = st
-    else:
-        new_str = st[::-1]
-    
-    for cha in new_str:
+    for cha in st[::-1]:
         num += (26**i)*(ord(cha)- 64)
         i += 1
         
