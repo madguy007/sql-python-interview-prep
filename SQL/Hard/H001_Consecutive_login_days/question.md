@@ -1,4 +1,4 @@
-# SQL Interview Question 3
+# SQL Interview Question 
 
 ## Problem
 Find users who logged in for 3 or more consecutive days.
