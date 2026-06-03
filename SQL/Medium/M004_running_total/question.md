@@ -1,4 +1,4 @@
-# SQL Interview Question 6
+# SQL Interview Question 
 
 ## Problem
 For each customer, calculate the running total (cumulative sum) of order amounts ordered by order_date.
