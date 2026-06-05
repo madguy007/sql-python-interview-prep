@@ -1,5 +1,5 @@
-- This problem uses a HashMap (dictionary) to count frequency of each character.
-- Each character becomes a key, and its count becomes the value.
+### This problem uses a HashMap (dictionary) to count frequency of each character.
+ #### Each character becomes a key, and its count becomes the value.
 
 Example:
 "hello"
