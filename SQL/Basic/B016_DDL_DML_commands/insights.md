@@ -106,9 +106,9 @@ Structure?
 Data?
 → DML
 
-==================================================
-Core Beginner SQL Foundation:
-==================================================
+
+### Core Beginner SQL Foundation:
+
 
 DDL = Database blueprint
 DML = Database content
