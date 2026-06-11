@@ -8,7 +8,7 @@ The output should include:
 - total spend
 
 Table: product_spend
-
+```
 +------------------+-----------+
 | Column Name      | Type      |
 +------------------+-----------+
@@ -18,11 +18,11 @@ Table: product_spend
 | spend            | decimal   |
 | transaction_date | timestamp |
 +------------------+-----------+
-
+```
 Example Input:
-
-| category    | product           | user_id | spend  | transaction_date   |
-|-------------|------------------|----------|---------|--------------------|
+```
+| category    | product           | user_id | spend  | transaction_date     |
+|-------------|------------------|----------|---------|-------------------- |
 | appliance   | refrigerator      | 165      | 246.00  | 12/26/2021         |
 | appliance   | refrigerator      | 123      | 299.99  | 03/02/2022         |
 | appliance   | washing machine   | 123      | 219.80  | 03/02/2022         |
@@ -31,3 +31,4 @@ Example Input:
 | electronics | vacuum            | 145      | 189.00  | 07/15/2022         |
 
 ==================================================
+```
