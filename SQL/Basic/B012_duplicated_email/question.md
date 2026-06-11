@@ -4,7 +4,7 @@ write a Python program to find the employee records where the email is duplicate
 
 From those duplicate email groups, return the employee with the maximum employee_id 
 for each duplicated email.
-
+```
 Example Input:
 employees = [
     {"employee_id": 1, "name": "A", "email": "a@gmail.com"},
@@ -19,3 +19,4 @@ Example Output:
     {"employee_id": 3, "name": "C", "email": "a@gmail.com"},
     {"employee_id": 5, "name": "E", "email": "b@gmail.com"}
 ]
+```
