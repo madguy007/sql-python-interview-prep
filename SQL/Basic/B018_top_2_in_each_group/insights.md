@@ -1,15 +1,13 @@
-==================================================
-Main Goal
-==================================================
+
+# Main Goal
 
 1. Filter only 2022 transactions
 2. Calculate total spend per product
 3. Rank products inside each category
 4. Keep top 2 products
 
-==================================================
-Step-by-Step Thinking
-==================================================
+
+## Step-by-Step Thinking
 
 Step 1 — Filter 2022 Data
 
@@ -79,9 +77,9 @@ WHERE rn <= 2
 
 Returns only top 2 ranked products per category.
 
-==================================================
-MOST IMPORTANT SQL CONCEPT
-==================================================
+
+## MOST IMPORTANT SQL CONCEPT
+
 
 SQL Execution Order
 
@@ -96,9 +94,9 @@ SELECT
 ORDER BY
 LIMIT
 
-==================================================
-Why SUM(spend) Works Inside Window Function
-==================================================
+
+## Why SUM(spend) Works Inside Window Function
+
 
 This works:
 
@@ -113,9 +111,8 @@ because:
 
 So window functions can directly use aggregate results.
 
-==================================================
-Why Alias Cannot Be Used
-==================================================
+## Why Alias Cannot Be Used
+
 
 This fails:
 
@@ -131,9 +128,9 @@ Because:
 - aliases are created later
 - window functions execute before SELECT aliases exist
 
-==================================================
-Easy Memory Trick
-==================================================
+
+## Easy Memory Trick
+
 
 Window Functions CAN use:
 - aggregates
@@ -142,9 +139,8 @@ Window Functions CAN use:
 Window Functions CANNOT use:
 - aliases created in same SELECT
 
-==================================================
-Mental Model
-==================================================
+## Mental Model
+
 
 GROUP BY creates groups
 ↓
@@ -156,9 +152,9 @@ SELECT creates aliases
 ↓
 Outer query filters ranks
 
-==================================================
-Most Important Interview Pattern
-==================================================
+
+## Most Important Interview Pattern
+
 
 Pattern:
 
@@ -177,9 +173,9 @@ Very common for:
 - Ranking problems
 - First login questions
 
-==================================================
-Key SQL Concepts
-==================================================
+
+## Key SQL Concepts
+
 
 - GROUP BY
 - SUM()
@@ -190,8 +186,6 @@ Key SQL Concepts
 - SQL execution order
 - Subquery filtering
 
-==================================================
-Pattern Type
-==================================================
 
+### Pattern Type
 Top-N-Per-Group SQL Pattern
