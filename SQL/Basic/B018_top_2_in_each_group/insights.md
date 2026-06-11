@@ -84,7 +84,7 @@ Returns only top 2 ranked products per category.
 SQL Execution Order
 
 Actual execution flow:
-
+```
 FROM
 WHERE
 GROUP BY
@@ -94,16 +94,16 @@ SELECT
 ORDER BY
 LIMIT
 
-
+```
 ## Why SUM(spend) Works Inside Window Function
 
 
 This works:
-
+```
 ROW_NUMBER() OVER(
     ORDER BY SUM(spend) DESC
 )
-
+```
 because:
 - GROUP BY already formed groups
 - SUM(spend) already computed
@@ -115,13 +115,13 @@ So window functions can directly use aggregate results.
 
 
 This fails:
-
+```
 SELECT
     SUM(spend) AS total_spend,
     ROW_NUMBER() OVER(
         ORDER BY total_spend DESC
     )
-
+```
 Why?
 
 Because:
@@ -140,7 +140,7 @@ Window Functions CANNOT use:
 - aliases created in same SELECT
 
 ## Mental Model
-
+```
 
 GROUP BY creates groups
 ↓
@@ -151,13 +151,13 @@ ROW_NUMBER ranks totals
 SELECT creates aliases
 ↓
 Outer query filters ranks
-
+```
 
 ## Most Important Interview Pattern
 
 
 Pattern:
-
+```
 SELECT *
 FROM (
     SELECT ...,
@@ -172,11 +172,11 @@ Very common for:
 - Latest order per customer
 - Ranking problems
 - First login questions
-
+```
 
 ## Key SQL Concepts
 
-
+```
 - GROUP BY
 - SUM()
 - ROW_NUMBER()
@@ -186,6 +186,6 @@ Very common for:
 - SQL execution order
 - Subquery filtering
 
-
+```
 ### Pattern Type
 Top-N-Per-Group SQL Pattern
