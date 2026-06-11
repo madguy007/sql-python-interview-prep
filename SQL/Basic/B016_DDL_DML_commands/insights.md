@@ -1,6 +1,5 @@
-==================================================
-DDL (Data Definition Language)
-==================================================
+### DDL (Data Definition Language)
+
 
 Purpose:
 - Defines or changes database structure
@@ -46,9 +45,9 @@ ALTER → Modify structure
 DROP → Delete structure
 TRUNCATE → Clear data only
 
-==================================================
-DML (Data Manipulation Language)
-==================================================
+
+### DML (Data Manipulation Language)
+
 
 Purpose:
 - Works with actual data inside tables
@@ -86,9 +85,9 @@ INSERT → Add data
 UPDATE → Change data
 DELETE → Remove data
 
-==================================================
-Quick Difference
-==================================================
+
+### Quick Difference
+
 
 DDL:
 - Changes table design
@@ -98,9 +97,8 @@ DML:
 - Changes table data
 - Can often be rolled back
 
-==================================================
-Interview Shortcut
-==================================================
+### Interview Shortcut
+
 
 Structure?
 → DDL
