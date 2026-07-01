@@ -4,13 +4,13 @@
 Find the median salary from the Employee table.
 
 ## Table Structure
-
+```
 Employee
 ---------
 id (int)
 name (varchar)
 salary (int)
-
+```
 ## Requirement
 
 Return:
