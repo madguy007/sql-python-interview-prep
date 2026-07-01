@@ -1,12 +1,12 @@
 Table: Accounts
-
+```
 +-------------+------+
 | Column Name | Type |
 +-------------+------+
 | account_id  | int  |
 | income      | int  |
 +-------------+------+
-
+```
 account_id is the primary key.
 
 Salary Categories:
@@ -21,7 +21,7 @@ Requirements:
 - If no accounts exist in a category → return 0
 
 Example:
-
+```
 Input:
 +------------+--------+
 | account_id | income |
@@ -31,7 +31,8 @@ Input:
 | 8          | 87709  |
 | 6          | 91796  |
 +------------+--------+
-
+```
+```
 Output:
 +----------------+----------------+
 | category       | accounts_count |
@@ -39,3 +40,5 @@ Output:
 | Low Salary     | 1              |
 | Average Salary | 0              |
 | High Salary    | 3              |
++----------------+----------------+
+```
