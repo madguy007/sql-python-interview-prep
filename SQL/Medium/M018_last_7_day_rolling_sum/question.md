@@ -1,5 +1,5 @@
 Table: Customer
-
+```
 +---------------+---------+
 | Column Name   | Type    |
 +---------------+---------+
@@ -8,7 +8,7 @@ Table: Customer
 | visited_on    | date    |
 | amount        | int     |
 +---------------+---------+
-
+```
 Primary Key:
 (customer_id, visited_on)
 
