@@ -30,6 +30,8 @@
 | M007 | Medium | longest_substing | [Open](Python/Medium/M007_longest_substing) |
 | M008 | Medium | 3sum | [Open](Python/Medium/M008_3sum) |
 | M009 | Medium | longest_sequence | [Open](Python/Medium/M009_longest_sequence) |
+| M010 | Medium | Recursion_with_sign_handle | [Open](Python/Medium/M010_Recursion_with_sign_handle) |
+| M011 | Medium | matrix_movement_problem | [Open](Python/Medium/M011_matrix_movement_problem) |
 
 ## SQL Questions
 | ID | Difficulty | Problem | Link |
@@ -81,6 +83,4 @@
 | M017 | Medium | categorization_with_union_all | [Open](SQL/Medium/M017_categorization_with_union_all) |
 | M018 | Medium | last_7_day_rolling_sum | [Open](SQL/Medium/M018_last_7_day_rolling_sum) |
 | M019 | Medium | instead_of_self_join_subquery | [Open](SQL/Medium/M019_instead_of_self_join_subquery) |
-| M020 | Medium | Recursion_with_sign_handle | [Open](SQL/Medium/M020_Recursion_with_sign_handle) |
-| M021 | Medium | matrix_movement_problem | [Open](SQL/Medium/M021_matrix_movement_problem) |
 
