@@ -1,4 +1,4 @@
---- First Method
+# First Method
 def excel_col_num():
     columnTitle = input().upper()
 
@@ -12,7 +12,7 @@ def excel_col_num():
 
 print(excel_col_num())
 
---- sencond method 
+# Second Method
 
 letter = 'FXSHRXW'
 n = len(letter)
@@ -25,7 +25,7 @@ for i in range(n):
 
 print(val)
 
---- Third Method
+# Third Method
 
 def excel_to_number(st):
     num = 0

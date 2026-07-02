@@ -1,4 +1,3 @@
-```python
 def count_substrings(s):
     # Base case
     if len(s) == 0:
@@ -16,6 +15,3 @@ def count_substrings(s):
 
 s = input().strip()
 print(count_substrings(s))
-```
-
----

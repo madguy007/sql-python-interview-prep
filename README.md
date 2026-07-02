@@ -1,8 +1,41 @@
 # SQL & Python Interview Prep
 
+A personal revision bank of interview questions, solutions, and learning insights,
+organized by language and difficulty.
+
+## Progress
+
+| Language | Questions |
+|----------|-----------|
+| Python | 29 |
+| SQL | 47 |
+| **Total** | **76** |
+
+## Adding a question
+
+Run `addq.bat` on Windows or `python addq.py`, choose the language and difficulty,
+then paste the content in this format:
+
+```text
+===QUESTION===
+Your question
+===SOLUTION===
+Your solution
+===INSIGHTS===
+Your revision notes
+MADDY
+```
+
+Each problem is stored as `question.md`, `solution.py` or `solution.sql`, and
+`insights.md`. The helper asks before committing and pushing to GitHub.
+
+> SQL solutions use a mixture of MySQL, PostgreSQL, and SQLite syntax. Check each
+> question and solution for dialect-specific notes.
+
 ## Python Questions
+
 | ID | Difficulty | Problem | Link |
-|----|-----------|---------|------|
+|----|------------|---------|------|
 | B001 | Basic | sum_check_digit | [Open](Python/Basic/B001_sum_check_digit) |
 | B002 | Basic | lambda_function | [Open](Python/Basic/B002_lambda_function) |
 | B003 | Basic | sum_of_pairs_equal_to_target | [Open](Python/Basic/B003_sum_of_pairs_equal_to_target) |
@@ -13,14 +46,6 @@
 | B008 | Basic | sliding_window_vowels | [Open](Python/Basic/B008_sliding_window_vowels) |
 | B009 | Basic | max_value_in_dic | [Open](Python/Basic/B009_max_value_in_dic) |
 | B010 | Basic | prime_factors_finding | [Open](Python/Basic/B010_prime_factors_finding) |
-| H001 | Hard | next_date | [Open](Python/Hard/H001_next_date) |
-| H002 | Hard | pascal_triangle | [Open](Python/Hard/H002_pascal_triangle) |
-| H003 | Hard | happy_number | [Open](Python/Hard/H003_happy_number) |
-| H004 | Hard | diamond_pattern | [Open](Python/Hard/H004_diamond_pattern) |
-| H005 | Hard | longest_prefix | [Open](Python/Hard/H005_longest_prefix) |
-| H006 | Hard | recusive_list_unpacking | [Open](Python/Hard/H006_recusive_list_unpacking) |
-| H007 | Hard | rectangle_pattern | [Open](Python/Hard/H007_rectangle_pattern) |
-| H008 | Hard | count_substrings | [Open](Python/Hard/H008_count_substrings) |
 | M001 | Medium | next_prime | [Open](Python/Medium/M001_next_prime) |
 | M002 | Medium | X_Pattern | [Open](Python/Medium/M002_X_Pattern) |
 | M003 | Medium | excel_column_number | [Open](Python/Medium/M003_excel_column_number) |
@@ -32,10 +57,19 @@
 | M009 | Medium | longest_sequence | [Open](Python/Medium/M009_longest_sequence) |
 | M010 | Medium | Recursion_with_sign_handle | [Open](Python/Medium/M010_Recursion_with_sign_handle) |
 | M011 | Medium | matrix_movement_problem | [Open](Python/Medium/M011_matrix_movement_problem) |
+| H001 | Hard | next_date | [Open](Python/Hard/H001_next_date) |
+| H002 | Hard | pascal_triangle | [Open](Python/Hard/H002_pascal_triangle) |
+| H003 | Hard | happy_number | [Open](Python/Hard/H003_happy_number) |
+| H004 | Hard | diamond_pattern | [Open](Python/Hard/H004_diamond_pattern) |
+| H005 | Hard | longest_prefix | [Open](Python/Hard/H005_longest_prefix) |
+| H006 | Hard | recusive_list_unpacking | [Open](Python/Hard/H006_recusive_list_unpacking) |
+| H007 | Hard | rectangle_pattern | [Open](Python/Hard/H007_rectangle_pattern) |
+| H008 | Hard | count_substrings | [Open](Python/Hard/H008_count_substrings) |
 
 ## SQL Questions
+
 | ID | Difficulty | Problem | Link |
-|----|-----------|---------|------|
+|----|------------|---------|------|
 | B001 | Basic | cross_product | [Open](SQL/Basic/B001_cross_product) |
 | B002 | Basic | muliple_table_join | [Open](SQL/Basic/B002_muliple_table_join) |
 | B003 | Basic | dealing_with_null | [Open](SQL/Basic/B003_dealing_with_null) |
@@ -54,16 +88,6 @@
 | B016 | Basic | DDL_DML_commands | [Open](SQL/Basic/B016_DDL_DML_commands) |
 | B017 | Basic | Handling_null_Interview | [Open](SQL/Basic/B017_Handling_null_Interview) |
 | B018 | Basic | top_2_in_each_group | [Open](SQL/Basic/B018_top_2_in_each_group) |
-| H001 | Hard | Consecutive_login_days | [Open](SQL/Hard/H001_Consecutive_login_days) |
-| H002 | Hard | median_salary | [Open](SQL/Hard/H002_median_salary) |
-| H003 | Hard | Hierarchy_self_join | [Open](SQL/Hard/H003_Hierarchy_self_join) |
-| H004 | Hard | Consecutive_day_&_filtering | [Open](SQL/Hard/H004_Consecutive_day_&_filtering) |
-| H005 | Hard | wide_avg_company_comparison | [Open](SQL/Hard/H005_wide_avg_company_comparison) |
-| H006 | Hard | lag_streak | [Open](SQL/Hard/H006_lag_streak) |
-| H007 | Hard | top2_per_day | [Open](SQL/Hard/H007_top2_per_day) |
-| H008 | Hard | consecutive_day_streak_logic | [Open](SQL/Hard/H008_consecutive_day_streak_logic) |
-| H009 | Hard | customers_converted_from_free_paid | [Open](SQL/Hard/H009_customers_converted_from_free_paid) |
-| H010 | Hard | churn_no._per_month | [Open](SQL/Hard/H010_churn_no._per_month) |
 | M001 | Medium | Higest_orderd_item | [Open](SQL/Medium/M001_Higest_orderd_item) |
 | M002 | Medium | 2nd_max_salary | [Open](SQL/Medium/M002_2nd_max_salary) |
 | M003 | Medium | self_join | [Open](SQL/Medium/M003_self_join) |
@@ -83,4 +107,13 @@
 | M017 | Medium | categorization_with_union_all | [Open](SQL/Medium/M017_categorization_with_union_all) |
 | M018 | Medium | last_7_day_rolling_sum | [Open](SQL/Medium/M018_last_7_day_rolling_sum) |
 | M019 | Medium | instead_of_self_join_subquery | [Open](SQL/Medium/M019_instead_of_self_join_subquery) |
-
+| H001 | Hard | Consecutive_login_days | [Open](SQL/Hard/H001_Consecutive_login_days) |
+| H002 | Hard | median_salary | [Open](SQL/Hard/H002_median_salary) |
+| H003 | Hard | Hierarchy_self_join | [Open](SQL/Hard/H003_Hierarchy_self_join) |
+| H004 | Hard | Consecutive_day_&_filtering | [Open](SQL/Hard/H004_Consecutive_day_&_filtering) |
+| H005 | Hard | wide_avg_company_comparison | [Open](SQL/Hard/H005_wide_avg_company_comparison) |
+| H006 | Hard | lag_streak | [Open](SQL/Hard/H006_lag_streak) |
+| H007 | Hard | top2_per_day | [Open](SQL/Hard/H007_top2_per_day) |
+| H008 | Hard | consecutive_day_streak_logic | [Open](SQL/Hard/H008_consecutive_day_streak_logic) |
+| H009 | Hard | customers_converted_from_free_paid | [Open](SQL/Hard/H009_customers_converted_from_free_paid) |
+| H010 | Hard | churn_no._per_month | [Open](SQL/Hard/H010_churn_no._per_month) |

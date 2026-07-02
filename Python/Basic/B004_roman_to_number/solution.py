@@ -12,4 +12,4 @@ for i in range(len(roman)):
   else:
     value += dic[roman[i]]
 
-print(value))
+print(value)
