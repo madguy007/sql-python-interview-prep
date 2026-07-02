@@ -1,5 +1,6 @@
-Table: Insurance
 
+Table: Insurance
+```
 +-------------+-------+
 | Column Name | Type  |
 +-------------+-------+
@@ -9,7 +10,7 @@ Table: Insurance
 | lat         | float |
 | lon         | float |
 +-------------+-------+
-
+```
 Primary Key:
 pid
 
