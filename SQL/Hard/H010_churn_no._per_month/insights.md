@@ -6,9 +6,8 @@ Important Rule:
 - Churn is based on customer lifecycle inactivity.
 - It is NOT simply customers inactive during one month.
 
-==================================================
-Step-by-Step SQL Logic
-==================================================
+## Step-by-Step SQL Logic
+
 
 1. Find Customer's Last Transaction
 - Use:
@@ -48,9 +47,7 @@ Purpose:
 Purpose:
 - Monthly churn volume
 
-==================================================
-Key SQL Concepts
-==================================================
+## Key SQL Concepts
 
 - MAX()
 - DATE_SUB()
@@ -60,9 +57,9 @@ Key SQL Concepts
 - ORDER BY
 - Customer lifecycle analysis
 
-==================================================
-Interview Memory Rules
-==================================================
+
+## Interview Memory Rules
+
 
 Find customer’s final activity?
 → MAX(transaction_date)
@@ -76,9 +73,8 @@ Monthly churn trend?
 Count churned customers?
 → COUNT(DISTINCT customer_id)
 
-==================================================
-Core Business Insight
-==================================================
+## Core Business Insight
+
 
 Monthly churn trend helps businesses:
 - Track retention decline
