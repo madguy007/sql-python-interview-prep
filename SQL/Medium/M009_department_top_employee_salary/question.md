@@ -1,3 +1,4 @@
+```
 Table: Employee
 +--------------+---------+
 | Column Name  | Type    |
@@ -7,7 +8,8 @@ Table: Employee
 | salary       | int     |
 | departmentId | int     |
 +--------------+---------+
-
+```
+```
 Table: Department
 +-------------+---------+
 | Column Name | Type    |
@@ -15,7 +17,7 @@ Table: Department
 | id          | int     |
 | name        | varchar |
 +-------------+---------+
-
+```
 Write a SQL query to find employees who have the highest salary in each department.
 
 Return the result with the department name, employee name, and salary.
