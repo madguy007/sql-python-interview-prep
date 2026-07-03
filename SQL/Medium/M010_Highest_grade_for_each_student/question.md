@@ -1,5 +1,5 @@
 Table: Enrollments
-
+```
 +-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
@@ -7,7 +7,7 @@ Table: Enrollments
 | course_id   | int     |
 | grade       | int     |
 +-------------+---------+
-
+```
 (student_id, course_id) is the primary key for this table.
 Each row indicates that a student received a grade in a specific course.
 
