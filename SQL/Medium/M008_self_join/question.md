@@ -1,7 +1,7 @@
 Managers with Direct Reports
 
 Table: Employee
-
+```
 +----+-------+-----------+
 | id | name  | managerId |
 +----+-------+-----------+
@@ -10,7 +10,7 @@ Table: Employee
 | 3  | Bob   | 1         |
 | 4  | Mike  | 2         |
 +----+-------+-----------+
-
+```
 Write a SQL query to find each manager and the number of employees who directly report to them.
 
 Return the result with two columns:
