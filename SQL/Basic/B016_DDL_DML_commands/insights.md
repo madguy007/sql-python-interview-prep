@@ -35,8 +35,6 @@ DROP TABLE Employee;
 Example:
 TRUNCATE TABLE Employee;
 ```
---------------------------------------------------
-
 Memory Rule:
 DDL = Structure Commands
 ```
