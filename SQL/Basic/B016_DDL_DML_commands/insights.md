@@ -18,7 +18,7 @@ CREATE TABLE Employee (
 ```
 2. ALTER
 - Modifies existing table structure
-``
+```
 Example:
 ALTER TABLE Employee
 ADD department VARCHAR(50);
