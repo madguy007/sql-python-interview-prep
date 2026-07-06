@@ -8,43 +8,43 @@ Commands:
 
 1. CREATE
 - Creates new database/table
-
+```
 Example:
 CREATE TABLE Employee (
     employee_id INT,
     name VARCHAR(50),
     salary INT
 );
-
+```
 2. ALTER
 - Modifies existing table structure
-
+``
 Example:
 ALTER TABLE Employee
 ADD department VARCHAR(50);
-
+```
 3. DROP
 - Deletes entire table/database
-
+```
 Example:
 DROP TABLE Employee;
-
+```
 4. TRUNCATE
 - Removes all rows, keeps structure
-
+```
 Example:
 TRUNCATE TABLE Employee;
-
+```
 --------------------------------------------------
 
 Memory Rule:
 DDL = Structure Commands
-
+```
 CREATE → New structure
 ALTER → Modify structure
 DROP → Delete structure
 TRUNCATE → Clear data only
-
+```
 
 ### DML (Data Manipulation Language)
 
