@@ -54,35 +54,35 @@ Commands:
 
 1. INSERT
 - Adds new records
-
+```
 Example:
 INSERT INTO Employee (employee_id, name, salary)
 VALUES (101, 'Maddy', 50000);
-
+```
 2. UPDATE
 - Modifies existing records
-
+```
 Example:
 UPDATE Employee
 SET salary = 75000
 WHERE employee_id = 101;
-
+```
 3. DELETE
 - Removes specific records
-
+```
 Example:
 DELETE FROM Employee
 WHERE employee_id = 101;
-
+```
 --------------------------------------------------
 
 Memory Rule:
 DML = Data Commands
-
+```
 INSERT → Add data
 UPDATE → Change data
 DELETE → Remove data
-
+```
 
 ### Quick Difference
 
