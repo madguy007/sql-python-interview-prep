@@ -1,9 +1,3 @@
-Order
-
-Easy  
-+10 APs  
-Solved
-
 Given two arrays of integers nums and index. Your task is to create a target array under the following rules:
 
 Initially target array is empty.
